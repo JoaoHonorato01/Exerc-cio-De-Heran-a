@@ -1,0 +1,15 @@
+package Main;
+
+import Model.Carro;
+import Model.Moto;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Carro carro = new Carro("Toyota", "Yaris X-Way ", 4);
+        System.out.println("Carro: " + carro.getMarca() + " " + carro.getModelo() + ", Número de Portas: " + carro.getNumeroPortas());
+
+        Moto moto = new Moto("harley davidson", "Road King", 1868);
+        System.out.println("Moto: " + moto.getMarca() + " " + moto.getModelo() + ", Cilindrada: " + moto.getCilindrada() + "cc");
+    }
+}
